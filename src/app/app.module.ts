@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PdfGenerateurComponent } from './pdf-generateur/pdf-generateur.component';
+import { BadgeComponent } from './badge/badge.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PdfGenerateurComponent
+    PdfGenerateurComponent,
+    BadgeComponent
   ],
   imports: [
     BrowserModule,
